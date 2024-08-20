@@ -1,0 +1,4 @@
+*.secret
+/.project
+.DS_Store
+*.DS_Store
