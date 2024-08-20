@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-sds-versions-service
+  name: nginx-ds2022-versions-service
   namespace: uvasds-services
 spec:
   selector:
-    app: nginx-sds-versions
+    app: nginx-ds2022-versions
   ports:
     - protocol: TCP
       port: 8080

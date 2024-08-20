@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  name: pi-calculation
+  name: pi-ds2022
   namespace: uvasds-services
 spec:
   schedule: "0 * * * *"
